@@ -10,11 +10,11 @@ use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use Mfnannah\PdfArabic\Commands\PdfArabicCommand;
+use Mfnannah\PdfArabic\Testing\TestsPdfArabic;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mfnannah\PdfArabic\Commands\PdfArabicCommand;
-use Mfnannah\PdfArabic\Testing\TestsPdfArabic;
 
 class PdfArabicServiceProvider extends PackageServiceProvider
 {
