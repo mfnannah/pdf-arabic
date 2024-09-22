@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Mfnannah\PdfArabic\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class PdfArabicCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'pdf-arabic';
 
     public $description = 'My command';
 

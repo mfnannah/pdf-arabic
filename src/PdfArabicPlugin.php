@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Mfnannah\PdfArabic;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class PdfArabicPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'pdf-arabic';
     }
 
     public function register(Panel $panel): void
