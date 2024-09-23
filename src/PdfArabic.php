@@ -2,4 +2,6 @@
 
 namespace Mfnannah\PdfArabic;
 
-class PdfArabic {}
+class PdfArabic {
+    
+}
