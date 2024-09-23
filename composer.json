@@ -72,6 +72,5 @@
                 "PdfArabic": "Mfnannah\\PdfArabic\\Facades\\PdfArabic"
             }
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
