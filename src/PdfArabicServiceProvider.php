@@ -101,8 +101,8 @@ class PdfArabicServiceProvider extends PackageServiceProvider
     {
         return [
             // AlpineComponent::make('pdf-arabic', __DIR__ . '/../resources/dist/components/pdf-arabic.js'),
-            Css::make('pdf-arabic-styles', __DIR__ . '/../resources/dist/pdf-arabic.css'),
-            Js::make('pdf-arabic-scripts', __DIR__ . '/../resources/dist/pdf-arabic.js'),
+//            Css::make('pdf-arabic-styles', __DIR__ . '/../resources/dist/pdf-arabic.css'),
+//            Js::make('pdf-arabic-scripts', __DIR__ . '/../resources/dist/pdf-arabic.js'),
         ];
     }
 
