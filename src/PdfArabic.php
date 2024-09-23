@@ -1,6 +1,7 @@
 <?php
 
 namespace Mfnannah\PdfArabic;
+
 use Arphp\Glyphs;
 use Closure;
 use Dompdf\Dompdf;
@@ -8,7 +9,9 @@ use Filament\Actions\Concerns\CanCustomizeProcess;
 use Filament\Tables\Actions\Action;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Model;
-class PdfArabic extends Action{
+
+class PdfArabic extends Action
+{
     use CanCustomizeProcess;
 
     protected ?Closure $mutateRecordDataUsing = null;
