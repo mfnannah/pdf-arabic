@@ -22,6 +22,8 @@
     ],
     "require": {
         "php": "^8.1",
+        "ar-php/ar-php": "^1.0",
+        "dompdf/dompdf": "^3.0",
         "filament/filament": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0"
     },
